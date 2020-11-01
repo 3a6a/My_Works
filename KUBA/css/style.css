@@ -687,6 +687,10 @@ color: #505050;
   padding: 122px 0 0px 0;
 }
 
+.about__preview--title {
+  padding-top: 120px;
+}
+
 .slick-next {
   right: 20px;
 }
