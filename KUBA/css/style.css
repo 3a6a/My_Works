@@ -730,6 +730,11 @@ color: #505050;
 
 @media (max-width: 540px) {
 
+  .about__box--text {
+    font-size: 11px;
+    text-align: left;
+}
+
   .header__text {
     display: none;
   }
