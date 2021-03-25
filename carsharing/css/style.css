@@ -750,9 +750,21 @@ border: 1px solid #C5AC2D;
 width: 100%;
 text-align: left;
     }
+
+    .footer .menu {
+        display: none;
+    }
 }
 
 @media (max-width: 860px) {
+
+.feedback,
+.reviews,
+.benefits,
+.rent {
+    padding: 50px 0;
+} 
+
     .menu {
         order: 1;
     }
