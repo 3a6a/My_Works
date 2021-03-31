@@ -9,15 +9,6 @@ const autoprefixer = require(`gulp-autoprefixer`);
 const imagemin = require('gulp-imagemin');
 const del = require(`del`);
 
-
-const gulp = require('gulp');
-const ghPages = require('gulp-gh-pages');
-
-gulp.task('deploy', function() {
-  return gulp.src('./app/**/*')
-    .pipe(ghPages());
-});
-
 function browsersync(){
     browserSync.init({
         server : {
